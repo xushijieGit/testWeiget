@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'testWeiget_Example' do
+  pod 'testWeiget', :path => '../'
+
+  target 'testWeiget_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
