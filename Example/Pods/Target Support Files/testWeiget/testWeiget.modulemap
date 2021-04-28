@@ -1,0 +1,6 @@
+framework module testWeiget {
+  umbrella header "testWeiget-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_testWeiget_Tests {
+  umbrella header "Pods-testWeiget_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
